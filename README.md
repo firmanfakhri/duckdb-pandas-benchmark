@@ -175,6 +175,20 @@ psutil: (for memory monitoring)
    result = duckdb.sql("SELECT * FROM 'data.parquet'").df()
    ```
 
+## 📖 Read the Full Article
+
+Want to dive deeper into the story, detailed explanations, and real-world use cases?
+
+**[Struggling with Large CSV Files? Here's Why DuckDB Changed My Workflow](https://datasquad.hashnode.dev/struggling-with-large-csv-files-heres-why-duckdb-changed-my-workflow)**
+
+The article covers:
+- The problem with traditional tools (Excel, Pandas)
+- How DuckDB works and why it's faster
+- Step-by-step benchmark comparisons
+- Real-world use cases and workflows
+- Pro tips and best practices
+- When NOT to use DuckDB
+
 ## 🌟 Acknowledgments
 
 - [DuckDB](https://duckdb.org/) - Amazing in-process analytical database
