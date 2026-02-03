@@ -175,28 +175,6 @@ psutil: (for memory monitoring)
    result = duckdb.sql("SELECT * FROM 'data.parquet'").df()
    ```
 
-## 📖 Related Article
-
-This benchmark code accompanies the article:
-**["I Almost Cried Opening a 120MB Excel File, Then I Found DuckDB"](#)**
-
-The article explains:
-- Why traditional tools struggle with large files
-- How DuckDB works under the hood
-- Real-world use cases
-- Common mistakes to avoid
-
-## 🤝 Contributing
-
-Found a bug or have suggestions? Feel free to:
-- Open an issue
-- Submit a pull request
-- Share your own benchmark results
-
-## 📝 License
-
-MIT License - feel free to use this code for your own benchmarks!
-
 ## 🌟 Acknowledgments
 
 - [DuckDB](https://duckdb.org/) - Amazing in-process analytical database
